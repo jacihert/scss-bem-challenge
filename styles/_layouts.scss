@@ -1,0 +1,43 @@
+@use "_base.scss" as *;
+
+//Layout for containers
+
+.navigation{
+  background-color: $color-primary;
+  height: 10vh; 
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact{
+  background-color: $color-primary;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conclusion{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  background-color: $color-primary;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}

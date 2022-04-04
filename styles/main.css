@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Dancing Script", serif;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  color: #fafafa;
+}
+
+.button {
+  background-color: #f0a500;
+  color: #fafafa;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: block;
+  width: 100px;
+  text-align: center;
+}
+.button--form {
+  background-color: #55a5f0;
+  border: none;
+  width: 100%;
+}
+.button--logout {
+  margin: 0 auto;
+  background-color: #fafafa;
+  color: #28527a;
+  border: 2px solid #55a5f0;
+  padding: 5px;
+}
+
+.intro {
+  text-align: center;
+}
+.intro .intro__heading {
+  color: #28527a;
+  font-size: 50px;
+}
+.intro__subheading {
+  font-family: "Dancing Script", serif;
+  font-size: 25px;
+  margin: 20px 0;
+}
+.intro__button {
+  margin: 0 auto;
+}
+
+.wave {
+  fill: #28527a;
+  fill-opacity: 1;
+  vertical-align: bottom;
+}
+
+.form {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form__field {
+  margin-bottom: 20px;
+}
+
+.conclusion .logout__heading {
+  color: #333333;
+  font-family: "Dancing Script", serif;
+  background-color: #fafafa;
+}
+.conclusion__button {
+  margin: 0 auto;
+}
+
+.navigation {
+  background-color: #28527a;
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background-color: #28527a;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conclusion {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #28527a;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}/*# sourceMappingURL=main.css.map */

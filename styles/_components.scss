@@ -1,0 +1,98 @@
+@use "_base.scss" as *;
+
+// COMPONENTS -> INDIVIDUAL ITEMS / ELEMENTS
+
+.logo
+{font-family: $font-display;
+color: $color-white;
+font-size: 20px;
+}
+
+.copyright{
+  font-family: $font-body;
+  color: $color-white;
+}
+
+.button{
+background-color: $color-secondary;
+color: $color-white;
+padding: 10px 20px;
+border-radius: 10px;
+display:block;
+width: 100px;
+text-align: center;
+
+//.button
+//MODIFIER
+  &--form{
+    background-color: $color-primary-light;
+    border: none;
+    width: 100%;
+  }
+
+  &--logout {
+     margin: 0 auto;
+     background-color: $color-white;
+     color: $color-primary;
+     border: 2px solid $color-primary-light;
+     padding: 5px;
+   }
+
+}
+
+// NESTING
+
+.intro{
+    text-align: center;
+
+  .intro__heading {
+    color: $color-primary;
+    font-size: 50px;
+  }
+
+  // & is .intro
+
+  &__subheading {
+    font-family: $font-display;
+    font-size: 25px;
+    margin: 20px 0;
+  }
+ &__button {
+   margin: 0 auto;
+ }
+}
+
+.wave{
+  fill: $color-primary;
+  fill-opacity: 1;
+  vertical-align: bottom;
+}
+
+.form{
+  background-color: $color-white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  &__field {
+    margin-bottom: 20px;
+  }
+}
+
+  .conclusion{
+    .logout__heading{
+      color: $color-black;
+      font-family: $font-display;
+      background-color: $color-white;
+    }
+    &__button {
+      margin: 0 auto;
+    }
+  }
+
+
+
+
+
+
